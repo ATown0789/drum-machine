@@ -73,10 +73,9 @@ class App extends React.Component{
 	
 	  return (
 		<div className="App">
+			<h1>Drum Machine</h1>
 			<div id = "drum-machine">
-				
 				{drumpad}
-				
 				<div id = "display">
 					<h1>{this.state.audioLabel}</h1>
 				</div>
