@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import Drumpad from './components/Drumpad';
 
+
+
 const PADINFO = [{
 	keyName: 'Q',
 	keyCode:81,
@@ -67,9 +69,13 @@ class App extends React.Component{
 	}
 	
 	
-
 	render(){
-		let drumpad = PADINFO.map(a => <Drumpad displayName = {this.displayName} keyCode = {a.keyCode} url ={a.url} keyName = {a.keyName} audioLabel ={a.audioLabel} />)
+		let drumpad = PADINFO.map(a => <Drumpad 
+											displayName = {this.displayName} 
+											keyCode = {a.keyCode} url ={a.url} 
+											keyName = {a.keyName} 
+											audioLabel ={a.audioLabel}
+										/>)
 	
 	  return (
 		<div className="App">
