@@ -11,7 +11,7 @@ const active = {
 
 const inactive = {
 	background:'#0000FF	',
-	boxShadow: '0px 0px 15px 0px rgba(0,0,0,0.75)',
+	boxShadow: '5px 5px 5px 0px rgba(0,0,0,0.75)',
 	margin: '5px'
 }
 
